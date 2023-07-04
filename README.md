@@ -5,9 +5,9 @@ The Order Management Application is a Spring Boot-based application that provide
 Prerequisites
 Make sure you have the following software installed on your machine:
 
-Java JDK 11 or later,
 Apache Maven,
-Docker (optional, for running the application in a Docker container)
+Java JDK 11,
+Docker 
 
 # Clone the Repository
 Clone the repository to your local machine using the following command:
