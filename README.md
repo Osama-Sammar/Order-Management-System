@@ -15,7 +15,7 @@ To get started with the application, follow the steps below.
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Ahmad-Alqattu/order-management.git
+git clone https://github.com/Osama-Sammar/Order-Management-System.git
 Build the Application
 Open IntelliJ IDEA and select "Open" from the main menu. Navigate to the directory where you cloned the repository and select the project. Wait for IntelliJ IDEA to import the project and resolve dependencies.
 
