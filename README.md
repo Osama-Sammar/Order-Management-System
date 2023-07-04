@@ -1,70 +1,73 @@
-# Order Management Application
+Order Management Application
+The Order Management Application is a Spring Boot-based application that provides functionalities to manage orders, customers, and products.
 
-This is an Order Management application developed using Spring Boot. It allows you to manage orders, customers, and products.
+Getting Started
+Prerequisites
+Make sure you have the following software installed on your machine:
 
-## Getting Started
+Java JDK 11 or later
+Apache Maven
+Docker (optional, for running the application in a Docker container)
+Clone the Repository
+Clone the repository to your local machine using the following command:
 
-To get started with the application, follow the steps below.
-
-### Prerequisites
-
-- Java JDK 11 or later
-- Apache Maven
-- Docker (optional, for creating and running a Docker image)
-
-### Clone the Repository
-
-```bash
+bash
 git clone https://github.com/Osama-Sammar/Order-Management-System.git
+
 Build the Application
-Open IntelliJ IDEA and select "Open" from the main menu. Navigate to the directory where you cloned the repository and select the project. Wait for IntelliJ IDEA to import the project and resolve dependencies.
+Open your preferred IDE (e.g., IntelliJ IDEA) and import the project. Alternatively, you can use the command line.
 
-Open a terminal within IntelliJ IDEA and run the following command to build the application:
+Navigate to the project directory and run the following command to build the application:
 
 bash
-Copy code
 mvn clean package
-This will compile the source code, run tests, and package the application into a JAR file.
 
-Running the Application
-You can run the application directly using Maven:
+This command will compile the source code, run tests, and package the application into a JAR file.
+
+Run the Application
+You can run the application using Maven or by executing the JAR file.
+
+Using Maven
+Open a terminal or command prompt and navigate to the project directory. Run the following command:
 
 bash
-Copy code
 mvn spring-boot:run
-Alternatively, you can run the JAR file:
+
+The application will start and be accessible at http://localhost:8080.
+
+Using the JAR file
+In the terminal or command prompt, navigate to the project directory and run the following command:
 
 bash
-Copy code
-java -jar target/order-management.jar
-The application will be accessible at http://localhost:8080.
+java -jar target/Order-Management-System.jar
+The application will start and be accessible at http://localhost:8080.
 
 Swagger Documentation
-You can access the Swagger documentation at http://localhost:8080/swagger-ui/.
+The application provides Swagger documentation, which can be accessed at http://localhost:8080/swagger-ui/. The Swagger documentation provides details about the available endpoints and their usage.
 
-Docker Image
-To create and run a Docker image of the application, follow the steps below.
+Docker Image 
+If you prefer running the application in a Docker container, follow the steps below.
 
 Build the Docker Image
 Make sure Docker is installed and running on your machine.
 
-Open a terminal or command prompt.
-
-Navigate to the project directory (order-management).
-
-Build the Docker image using the following command:
+Open a terminal or command prompt and navigate to the project directory. Run the following command:
 
 bash
-Copy code
-docker build -t order-management .
-This command will create a Docker image named "order-management" using the Dockerfile in the project directory.
+docker build -t Order-Management-System .
 
-Running the Docker Container
+This command will create a Docker image named "Order-Management-System" using the Dockerfile in the project directory.
+
+Run the Docker Container
 Once the image is built successfully, you can run the Docker container using the following command:
 
 bash
-Copy code
-docker run -p 8080:8080 order-management
-This command starts a container from the "order-management" image and maps port 8080 of the container to port 8080 of the host machine.
+docker run -p 8080:8080 Order-Management-System
+This command starts a container from the "Order-Management-System" image and maps port 8080 of the container to port 8080 of the host machine.
 
-The application should now be running in the Docker container. You can access the Swagger documentation at http://localhost:8080/swagger-ui/.
+The application should now be running in the Docker container, and you can access the Swagger documentation at http://localhost:8080/swagger-ui/.
+
+
+
+
+
