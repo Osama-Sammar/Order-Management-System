@@ -1,20 +1,21 @@
-Order Management Application
+# Order Management Application
 The Order Management Application is a Spring Boot-based application that provides functionalities to manage orders, customers, and products.
 
-Getting Started
+# Getting Started
 Prerequisites
 Make sure you have the following software installed on your machine:
 
 Java JDK 11 or later
 Apache Maven
 Docker (optional, for running the application in a Docker container)
-Clone the Repository
+
+# Clone the Repository
 Clone the repository to your local machine using the following command:
 
 bash
 git clone https://github.com/Osama-Sammar/Order-Management-System.git
 
-Build the Application
+# Build the Application
 Open your preferred IDE (e.g., IntelliJ IDEA) and import the project. Alternatively, you can use the command line.
 
 Navigate to the project directory and run the following command to build the application:
@@ -24,7 +25,7 @@ mvn clean package
 
 This command will compile the source code, run tests, and package the application into a JAR file.
 
-Run the Application
+# Run the Application
 You can run the application using Maven or by executing the JAR file.
 
 Using Maven
@@ -42,10 +43,10 @@ bash
 java -jar target/Order-Management-System.jar
 The application will start and be accessible at http://localhost:8080.
 
-Swagger Documentation
+# Swagger Documentation
 The application provides Swagger documentation, which can be accessed at http://localhost:8080/swagger-ui/. The Swagger documentation provides details about the available endpoints and their usage.
 
-Docker Image 
+# Docker Image 
 If you prefer running the application in a Docker container, follow the steps below.
 
 Build the Docker Image
